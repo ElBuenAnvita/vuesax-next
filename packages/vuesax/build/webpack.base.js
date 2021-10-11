@@ -53,9 +53,9 @@ module.exports = {
     new webpack.BannerPlugin({
       banner: `/*!
   * Vuesax v${pkg.version} 🖖 (https://lusaxweb.github.io/vuesax/)
-  * Forged by Luis Daniel Rovira
+  * Forged by Luis Daniel Rovira, edited by ElBuenAnvita
   * Released under the MIT License.
-  * Donate: https://www.patreon.com/bePatron?c=1567892
+  * Donate to Luis Daniel Rovira: https://www.patreon.com/bePatron?c=1567892
   * © 2019, Lusaxweb. (https://lusaxweb.net)
   */`,
       raw: true,

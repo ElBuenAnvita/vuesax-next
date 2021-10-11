@@ -1,11 +1,11 @@
 {
-  "name": "vuesax",
+  "name": "@elbuenanvita/vuesax",
   "version": "4.0.1-alpha.25",
   "description": "Framework components for vuejs",
   "main": "dist/vuesax.js",
   "scripts": {
     "build": "node build/index.js",
-    "build:components": "npx webpack --config build/components/webpack.component.js",
+    "build:components": "npx webpack --config build/components/webpack.components.js",
     "test": "jest",
     "lint": "tslint -c tslint.json 'src/**/*.ts'",
     "new:component": "node scripts/newComponent.js",
@@ -19,7 +19,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@babel/cli": "^7.6.2",
+    "@babel/cli": "^7.15.7",
     "@babel/core": "^7.6.2",
     "@babel/plugin-proposal-class-properties": "^7.5.5",
     "@babel/plugin-proposal-decorators": "^7.8.3",
